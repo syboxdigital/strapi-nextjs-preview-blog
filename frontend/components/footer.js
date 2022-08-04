@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className="border-t mt-10 pt-12 pb-32 px-4 lg:px-0">
-            <div className="px-4 pt-3 pb-4 border-b -mx-4 border-gray-400">
+            <div className="px-4 pt-3 pb-4 border-b -mx-4 border-gray-100">
                 <div className="max-w-xl mx-auto">
                     <h2 className="text-xl text-left inline-block font-semibold text-gray-800">Subscribe to Our Newsletter</h2>
                     <p className="text-gray-700 text-xs pl-px">
@@ -21,4 +21,5 @@ const Footer = () => {
         </footer>
     );
 };
+
 export default Footer;
