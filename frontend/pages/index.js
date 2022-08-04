@@ -8,43 +8,43 @@ export default function Home({ articles }) {
       <Layout>
         <body className="antialiased md:bg-gray-100">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            {articles.map((article) => (
+            {articles.data.map((article) => (
               <div key={article.id} className="md:p-8 p-2 bg-white">
                 <div>
-                  {article.image && (
-                    <img src={`http://localhost:1337${article.image.url}`} />
+                  {article.attributes.image && (
+                    <img src={`http://localhost:1337${article.attributes.image.data.attributes.url}`} />
                   )}
                 </div>
-                {article.title}
+                {article.attributes.title}
                 <div>
                   {article.category && (
                     <p className="text-indigo-500 font-semibold text-base mt-2">
-                      {article.category.name}
+                      {article.attributes.category.data.attributes.name}
                     </p>
                   )}
                 </div>
                 <h1 className="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
-                  {article.title}
+                  {article.attributes.title}
                 </h1>
-                <Link href={`/article/${article.slug}`}>
+                <Link href={`/article/${article.attributes.slug}`}>
                   <div className="max-w-full">
                     <p className="text-base font-medium tracking-wide text-gray-600 mt-1">
-                      {article.description}
+                      {article.attributes.description}
                     </p>
                   </div>
                 </Link>
                 <div className="flex items-center space-x-2 mt-20">
                   <div>
-                    {article.author && (
+                    {article.attributes.author && (
                       <p className="text-gray-900 font-semibold pb-2">
-                        {article.author.name}
+                        {article.attributes.author.data.attributes.name}
                       </p>
                     )}
                     <p className="text-gray-500 font-semibold text-sm">
-                      Created on - {new Date(article.created_at).toDateString()}
+                      Created on - {new Date(article.attributes.createdAt).toDateString()}
                     </p>
                     <p className="text-gray-500 font-semibold text-sm">
-                      Updated on - {new Date(article.updated_at).toDateString()}
+                      Updated on - {new Date(article.attributes.updatedAt).toDateString()}
                     </p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Home({ articles }) {
 
 export async function getStaticProps() {
   try {
-    const articles = await fetchAPI("/articles?status=published");;
+    const articles = await fetchAPI("/articles?populate=*");;
     return {
       props: {
         articles
