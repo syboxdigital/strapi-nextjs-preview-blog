@@ -1,0 +1,307 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "title": "What's inside a Black Hole",
+                "description": "Maybe the answer is in this article, or not...",
+                "content": "Well, we don't know yet...",
+                "slug": "what-s-inside-a-black-hole",
+                "createdAt": "2022-08-02T14:03:28.855Z",
+                "updatedAt": "2022-08-02T14:03:28.855Z",
+                "publishedAt": "2022-08-02T14:03:28.478Z",
+                "category": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "news",
+                            "slug": "news",
+                            "createdAt": "2022-08-02T14:03:26.521Z",
+                            "updatedAt": "2022-08-02T14:03:26.521Z"
+                        }
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": 4,
+                        "attributes": {
+                            "name": "what-s-inside-a-black-hole",
+                            "alternativeText": "what-s-inside-a-black-hole",
+                            "caption": "what-s-inside-a-black-hole",
+                            "width": 800,
+                            "height": 466,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_what-s-inside-a-black-hole",
+                                    "hash": "thumbnail_what_s_inside_a_black_hole_01c44a70c7",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 245,
+                                    "height": 143,
+                                    "size": 1.55,
+                                    "url": "/uploads/thumbnail_what_s_inside_a_black_hole_01c44a70c7.jpg"
+                                },
+                                "medium": {
+                                    "name": "medium_what-s-inside-a-black-hole",
+                                    "hash": "medium_what_s_inside_a_black_hole_01c44a70c7",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 437,
+                                    "size": 6.94,
+                                    "url": "/uploads/medium_what_s_inside_a_black_hole_01c44a70c7.jpg"
+                                },
+                                "small": {
+                                    "name": "small_what-s-inside-a-black-hole",
+                                    "hash": "small_what_s_inside_a_black_hole_01c44a70c7",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 291,
+                                    "size": 3.89,
+                                    "url": "/uploads/small_what_s_inside_a_black_hole_01c44a70c7.jpg"
+                                }
+                            },
+                            "hash": "what_s_inside_a_black_hole_01c44a70c7",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 7.5,
+                            "url": "/uploads/what_s_inside_a_black_hole_01c44a70c7.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-02T14:03:28.769Z",
+                            "updatedAt": "2022-08-02T14:03:28.769Z"
+                        }
+                    }
+                },
+                "author": {
+                    "data": {
+                        "id": 2,
+                        "attributes": {
+                            "name": "David Doe",
+                            "email": "daviddoe@strapi.io",
+                            "createdAt": "2022-08-02T14:03:28.362Z",
+                            "updatedAt": "2022-08-02T14:03:28.362Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "title": "The internet's Own boy",
+                "description": "Follow the story of Aaron Swartz, the boy who could change the world",
+                "content": "# The Story of Aaron Swartz\n\nAaron Hillel Swartz (November 8, 1986 – January 11, 2013) was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist. He was involved in the development of the web feed format RSS, the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site [Reddit](https://reddit.com). He was given the title of co-founder of Reddit by Y Combinator owner [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(programmer)) after the formation of Not a Bug, Inc. (a merger of Swartz's project Infogami and Redbrick Solutions, a company run by Alexis Ohanian and Steve Huffman).\n\nSwartz's work also focused on civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective online activism. In 2010, he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig. He founded the online group Demand Progress, known for its campaign against the Stop Online Piracy Act.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PFQGjEJ9PEc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n\nIn 2011, Swartz was arrested by Massachusetts Institute of Technology (MIT) police on state breaking-and-entering charges, after connecting a computer to the MIT network in an unmarked and unlocked closet, and setting it to download academic journal articles systematically from JSTOR using a guest user account issued to him by MIT. Federal prosecutors later charged him with two counts of wire fraud and eleven violations of the Computer Fraud and Abuse Act,[14] carrying a cumulative maximum penalty of $1 million in fines, 35 years in prison, asset forfeiture, restitution, and supervised release.\n\nSwartz declined a plea bargain under which he would have served six months in federal prison. Two days after the prosecution rejected a counter-offer by Swartz, he was found dead in his Brooklyn apartment, where he had hanged himself.\n\nIn 2013, Swartz was inducted posthumously into the [Internet Hall of Fame](https://www.internethalloffame.org//).",
+                "slug": "the-internet-s-own-boy",
+                "createdAt": "2022-08-02T14:03:29.187Z",
+                "updatedAt": "2022-08-02T14:03:29.187Z",
+                "publishedAt": "2022-08-02T14:03:28.478Z",
+                "category": {
+                    "data": {
+                        "id": 5,
+                        "attributes": {
+                            "name": "story",
+                            "slug": "story",
+                            "createdAt": "2022-08-02T14:03:26.578Z",
+                            "updatedAt": "2022-08-02T14:03:26.578Z"
+                        }
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": 5,
+                        "attributes": {
+                            "name": "the-internet-s-own-boy",
+                            "alternativeText": "the-internet-s-own-boy",
+                            "caption": "the-internet-s-own-boy",
+                            "width": 1200,
+                            "height": 707,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_the-internet-s-own-boy",
+                                    "hash": "thumbnail_the_internet_s_own_boy_1ea2ab8fc9",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 245,
+                                    "height": 144,
+                                    "size": 8.38,
+                                    "url": "/uploads/thumbnail_the_internet_s_own_boy_1ea2ab8fc9.jpg"
+                                },
+                                "large": {
+                                    "name": "large_the-internet-s-own-boy",
+                                    "hash": "large_the_internet_s_own_boy_1ea2ab8fc9",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 1000,
+                                    "height": 589,
+                                    "size": 70.11,
+                                    "url": "/uploads/large_the_internet_s_own_boy_1ea2ab8fc9.jpg"
+                                },
+                                "medium": {
+                                    "name": "medium_the-internet-s-own-boy",
+                                    "hash": "medium_the_internet_s_own_boy_1ea2ab8fc9",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 442,
+                                    "size": 45.93,
+                                    "url": "/uploads/medium_the_internet_s_own_boy_1ea2ab8fc9.jpg"
+                                },
+                                "small": {
+                                    "name": "small_the-internet-s-own-boy",
+                                    "hash": "small_the_internet_s_own_boy_1ea2ab8fc9",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 295,
+                                    "size": 25.31,
+                                    "url": "/uploads/small_the_internet_s_own_boy_1ea2ab8fc9.jpg"
+                                }
+                            },
+                            "hash": "the_internet_s_own_boy_1ea2ab8fc9",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 91.55,
+                            "url": "/uploads/the_internet_s_own_boy_1ea2ab8fc9.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-02T14:03:29.117Z",
+                            "updatedAt": "2022-08-02T14:03:29.117Z"
+                        }
+                    }
+                },
+                "author": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "Sarah Baker",
+                            "email": "sarahbaker@strapi.io",
+                            "createdAt": "2022-08-02T14:03:28.176Z",
+                            "updatedAt": "2022-08-02T14:03:28.176Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "title": "Beautiful picture",
+                "description": "Description of a beautiful picture",
+                "content": "This is an empty blog post with a beautiful picture",
+                "slug": "beautiful-picture",
+                "createdAt": "2022-08-02T14:03:30.331Z",
+                "updatedAt": "2022-08-02T14:03:30.331Z",
+                "publishedAt": "2022-08-02T14:03:28.478Z",
+                "category": {
+                    "data": {
+                        "id": 4,
+                        "attributes": {
+                            "name": "nature",
+                            "slug": "nature",
+                            "createdAt": "2022-08-02T14:03:26.522Z",
+                            "updatedAt": "2022-08-02T14:03:26.522Z"
+                        }
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": 8,
+                        "attributes": {
+                            "name": "beautiful-picture",
+                            "alternativeText": "beautiful-picture",
+                            "caption": "beautiful-picture",
+                            "width": 3824,
+                            "height": 2548,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_beautiful-picture",
+                                    "hash": "thumbnail_beautiful_picture_f38a47cb4f",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 234,
+                                    "height": 156,
+                                    "size": 6.42,
+                                    "url": "/uploads/thumbnail_beautiful_picture_f38a47cb4f.jpg"
+                                },
+                                "large": {
+                                    "name": "large_beautiful-picture",
+                                    "hash": "large_beautiful_picture_f38a47cb4f",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 1000,
+                                    "height": 666,
+                                    "size": 83.62,
+                                    "url": "/uploads/large_beautiful_picture_f38a47cb4f.jpg"
+                                },
+                                "medium": {
+                                    "name": "medium_beautiful-picture",
+                                    "hash": "medium_beautiful_picture_f38a47cb4f",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 500,
+                                    "size": 47.87,
+                                    "url": "/uploads/medium_beautiful_picture_f38a47cb4f.jpg"
+                                },
+                                "small": {
+                                    "name": "small_beautiful-picture",
+                                    "hash": "small_beautiful_picture_f38a47cb4f",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 333,
+                                    "size": 23.38,
+                                    "url": "/uploads/small_beautiful_picture_f38a47cb4f.jpg"
+                                }
+                            },
+                            "hash": "beautiful_picture_f38a47cb4f",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 585.12,
+                            "url": "/uploads/beautiful_picture_f38a47cb4f.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-02T14:03:30.261Z",
+                            "updatedAt": "2022-08-02T14:03:30.261Z"
+                        }
+                    }
+                },
+                "author": {
+                    "data": {
+                        "id": 2,
+                        "attributes": {
+                            "name": "David Doe",
+                            "email": "daviddoe@strapi.io",
+                            "createdAt": "2022-08-02T14:03:28.362Z",
+                            "updatedAt": "2022-08-02T14:03:28.362Z"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 3
+        }
+    }
+}
