@@ -17,10 +17,10 @@ export default function Home({ articles }) {
                 </div>
                 {article.attributes.title}
                 <div>
-                  {article.category && (
-                    <p className="text-indigo-500 font-semibold text-base mt-2">
+                  {article.attributes.category && (
+                    <div className="text-indigo-500 font-semibold text-base mt-2">
                       {article.attributes.category.data.attributes.name}
-                    </p>
+                    </div>
                   )}
                 </div>
                 <h1 className="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
@@ -28,24 +28,24 @@ export default function Home({ articles }) {
                 </h1>
                 <Link href={`/article/${article.attributes.slug}`}>
                   <div className="max-w-full">
-                    <p className="text-base font-medium tracking-wide text-gray-600 mt-1">
+                    <div className="text-base font-medium tracking-wide text-gray-600 mt-1">
                       {article.attributes.description}
-                    </p>
+                    </div>
                   </div>
                 </Link>
                 <div className="flex items-center space-x-2 mt-20">
                   <div>
                     {article.attributes.author && (
-                      <p className="text-gray-900 font-semibold pb-2">
+                      <div className="text-gray-900 font-semibold pb-2">
                         {article.attributes.author.data.attributes.name}
-                      </p>
+                      </div>
                     )}
-                    <p className="text-gray-500 font-semibold text-sm">
+                    <div className="text-gray-500 font-semibold text-sm">
                       Created on - {new Date(article.attributes.createdAt).toDateString()}
-                    </p>
-                    <p className="text-gray-500 font-semibold text-sm">
+                    </div>
+                    <div className="text-gray-500 font-semibold text-sm">
                       Updated on - {new Date(article.attributes.updatedAt).toDateString()}
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>
