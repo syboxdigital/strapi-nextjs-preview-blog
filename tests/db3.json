@@ -1,0 +1,103 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "title": "What's inside a Black Hole",
+                "description": "Maybe the answer is in this article, or not...",
+                "content": "Well, we don't know yet...",
+                "slug": "what-s-inside-a-black-hole",
+                "createdAt": "2022-08-02T14:03:28.855Z",
+                "updatedAt": "2022-08-02T14:03:28.855Z",
+                "publishedAt": "2022-08-02T14:03:28.478Z",
+                "category": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "news",
+                            "slug": "news",
+                            "createdAt": "2022-08-02T14:03:26.521Z",
+                            "updatedAt": "2022-08-02T14:03:26.521Z"
+                        }
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": 4,
+                        "attributes": {
+                            "name": "what-s-inside-a-black-hole",
+                            "alternativeText": "what-s-inside-a-black-hole",
+                            "caption": "what-s-inside-a-black-hole",
+                            "width": 800,
+                            "height": 466,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_what-s-inside-a-black-hole",
+                                    "hash": "thumbnail_what_s_inside_a_black_hole_01c44a70c7",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 245,
+                                    "height": 143,
+                                    "size": 1.55,
+                                    "url": "/uploads/thumbnail_what_s_inside_a_black_hole_01c44a70c7.jpg"
+                                },
+                                "medium": {
+                                    "name": "medium_what-s-inside-a-black-hole",
+                                    "hash": "medium_what_s_inside_a_black_hole_01c44a70c7",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 437,
+                                    "size": 6.94,
+                                    "url": "/uploads/medium_what_s_inside_a_black_hole_01c44a70c7.jpg"
+                                },
+                                "small": {
+                                    "name": "small_what-s-inside-a-black-hole",
+                                    "hash": "small_what_s_inside_a_black_hole_01c44a70c7",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 291,
+                                    "size": 3.89,
+                                    "url": "/uploads/small_what_s_inside_a_black_hole_01c44a70c7.jpg"
+                                }
+                            },
+                            "hash": "what_s_inside_a_black_hole_01c44a70c7",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 7.5,
+                            "url": "/uploads/what_s_inside_a_black_hole_01c44a70c7.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-02T14:03:28.769Z",
+                            "updatedAt": "2022-08-02T14:03:28.769Z"
+                        }
+                    }
+                },
+                "author": {
+                    "data": {
+                        "id": 2,
+                        "attributes": {
+                            "name": "David Doe",
+                            "email": "daviddoe@strapi.io",
+                            "createdAt": "2022-08-02T14:03:28.362Z",
+                            "updatedAt": "2022-08-02T14:03:28.362Z"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 1
+        }
+    }
+}
