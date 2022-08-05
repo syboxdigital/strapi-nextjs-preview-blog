@@ -10,3 +10,19 @@ export async function fetchAPI(path) {
     const data = await response.json();
     return data;
 }
+
+
+export async function getPageData(slug, preview = false) {
+    // Find the pages that match this slug
+    const pagesData = await fetchAPI(
+        `/articles?publicationState=preview&filters[slug][$eq]=${slug}&populate=*`
+    );
+
+    // Make sure we found something, otherwise return null
+    if (pagesData == null || pagesData.length === 0) {
+        return null;
+    }
+
+    // Return the first item since there should only be one result per slug
+    return pagesData;
+}
